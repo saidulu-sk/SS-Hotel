@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    color: white;
+    border: 2px solid rgb(20, 20, 40);
+    border-radius: 100%;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: wheat;
+    
+}
+.nav-item{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.nav-item .nav-link{
+    color: rgb(20, 20, 40);
+    font-weight: 500;
+    font-family: arial;
+}
+.nav-item .nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+#main{
+    background-image: linear-gradient(rgba(0,0,8,0.4),rgba(0,0,8,0.4)),url(Images/roombackground.jpg);
+    background-position: center;
+    height: 70vh;
+}
+#home{
+    text-decoration: underline;
+    color: white;
+}
+.btn0{
+    width: 150px;
+    height: 7vh;
+    background: transparent;
+    color: rgb(20, 44, 23);
+    border: 2px solid rgb(20, 44, 23);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.btn0:hover{
+border: none;
+outline: none;
+color: white;
+background: rgb(20, 44, 23);
+border-radius: 4px;
+}
+#secondmain{
+    text-align: center;
+    padding-top: 70px;
+background-color: rgb(209, 203, 203);   
+    
+}
+#thirdmain{
+
+    background-color: rgb(220, 211, 250);   
+}
+#list{
+    color: rgb(74, 83, 83);
+    font-weight: 500;
+}
+.btn1{
+    width: 200px;
+    height: 7vh;
+    border-radius: 4px;
+    background: transparent;
+    transition: all 0.4s;
+}
+.btn1:hover{
+border: none;
+outline: none;
+color: white;
+background-color: rgb(80, 90, 83);
+}
+#fourthmain{
+    background-color: olive;
+}
+#list1{
+    color: rgb(217, 236, 236);
+    font-weight: 500;
+}
+.btn2{
+    width: 200px;
+    height: 7vh;
+    border-radius: 4px;
+    background:rgb(128, 187, 146);
+    transition: all 0.4s;
+}
+.btn2:hover{
+border: none;
+outline: none;
+color: rgb(180, 45, 45);
+background-color: aquamarine;
+}
+#sixthmain{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80vh;
+    padding-top: 200px;
+}
+.btn3{
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: orange;
+    transition: all 0.4s;
+}
+.btn3:hover{
+    background-color: yellow;
+    border: none;
+    outline: none;
+
+}
+#footer{
+    background: rgb(16, 18, 51);  
+    color: white; 
+   }
+   .btn4{
+       width: 200px;
+       height: 7vh;
+       background: transparent;
+       color: white;
+       border: 1px solid white;
+       border-radius: 4px;
+       transition: all 0.4s;
+   }
+   .btn4:hover{
+       border: none;
+       outline: none;
+       color: rgb(100, 106, 200);
+       background-color: white;
+   }
+   .link:hover{
+       color: red;
+       cursor: pointer;
+       font-size: large;
+       text-decoration: underline;
+   }
+   #cp{
+       background: rgb(16, 18, 51);  
+   }
